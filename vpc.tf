@@ -3,5 +3,6 @@ resource "aws_vpc" "name" {
     tags = {
       Name = "krishnavpc"
       env = "dev"
+      dept = "env"
     }
     }
